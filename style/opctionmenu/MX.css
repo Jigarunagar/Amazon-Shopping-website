@@ -1,0 +1,175 @@
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.carousel-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 100%;
+}
+
+.carousel-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: solid #ffffff;
+  padding: 20px 15px 20px 15px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carousel-btn.prev {
+  left: 10px;
+}
+
+.carousel-btn.next {
+  right: 10px;
+}
+
+.carousel-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* 1650  to 2250 */
+@media (min-width: 1650px) and (max-width: 2250px) {
+  .carousel-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    overflow: hidden;
+  }
+}
+
+
+/* /////// */
+
+.slider-wrapper h3 {
+  color: white;
+}
+
+.slider-wrapper {
+  position: relative;
+  margin: 15px;
+}
+
+.slider-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.slider-container::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-card {
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  margin-right: 15px;
+  background-color: #222;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s;
+  perspective: 1000px;
+}
+
+.slider-card:hover {
+  transform: rotateY(10deg) scale(1.05);
+  z-index: 1;
+}
+
+.slider-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.arrow-btn {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 3px white solid;
+  font-size: 30px;
+  color: white;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: 10px;
+}
+
+.arrow-right {
+  right: 10px;
+}
+
+#sliderForm {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+}
+
+#sliderForm input {
+  padding: 5px;
+  font-size: 14px;
+}
+
+#sliderForm button {
+  padding: 6px 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#sliderForm button:hover {
+  background-color: #218838;
+}
+
+/*  */
+.info-box {
+  background-color: #1a1a1a;
+  border-left: 4px solid #3399ff;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+.info-box p{
+  color: white;
+}
+.info-box h5 {
+  color: #ffffff;
+  font-weight: 600;
+}
+.info-box a {
+  color: #3399ff;
+  text-decoration: none;
+}
+.info-box a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .info-box {
+    padding: 1rem;
+  }
+  .info-box h5 {
+    font-size: 1.1rem;
+  }
+}

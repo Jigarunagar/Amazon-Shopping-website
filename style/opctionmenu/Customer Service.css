@@ -1,0 +1,23 @@
+.customer .warning-box {
+  background-color: #ffffff;
+  padding: 10px;
+  padding: 25px;
+  border: orange solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.customer .help-card {
+  transition: transform 0.2s;
+}
+.customer .help-card:hover {
+  transform: translateY(-5px);
+}
+.customer .searchbar {
+  margin: 20px 0;
+}
+.customer .sectiontitle {
+  margin: 30px 0 10px;
+}
+.customer img {
+  width: 60px;
+}

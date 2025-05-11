@@ -1,0 +1,26 @@
+/* Login Form Styles */
+.login-section {
+  min-height: calc(100vh - 170px); /* Adjust based on header/footer height */
+  background-color: #39414b;
+  padding: 20px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  background: #2b3038;
+  border-radius: 10px;
+}
+
+.login-card h3 {
+  font-weight: bold;
+}
+
+.login-card .form-control {
+  border-radius: 8px;
+}
+
+.login-card .btn-primary {
+  background-color: #ffc107;
+  color: black;
+}

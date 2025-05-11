@@ -1,0 +1,47 @@
+node --version -->v22.13.1
+
+npm --version --> 10.9.2
+
+npm init -y --> package.json
+
+npm install express , npm i -->node modules , package - lock.json
+
+npm i -g nodemon --> globali add (run to nodemon index.js) 
+
+npm install --save-dev nodemon --> devDevpendencies & (npm uninstall nodemon);
+
+npm i express --> create a repository
+
+npm i @angular/cli --> install 
+
+npm i - g json - server --> API create server 
+
+npm install express fs -->API express
+
+json-server --watch js.json --> API create 
+
+npm install express mongoose --> mongoose install
+
+npm i express mongoose path nodemon --> node_modules & package - lock.json
+
+npm i hbs -->
+
+npm install cors -->
+
+npm install dotenv -->
+
+git init --> repository git
+
+git add . --> data git
+
+git commit -am "initial commit" -->
+
+git remote add origin https://github.com/Jigarunagar/AMAZONWEB.git -->
+
+git remote -v -->
+
+git push origin master -->
+
+ git config --global user.name "Jigar Unagar" 
+
+git config --global user.email "officialjigarunagar@gmail.com"

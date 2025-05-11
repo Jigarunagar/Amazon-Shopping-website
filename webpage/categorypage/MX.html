@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/Amazon-Shopping-website/style/opctionmenu/MX.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background: #070d0e">
+    <!--  -->
+    <div id="headercontainer"></div>
+    <!--  -->
+    <div class="carousel-container">
+      <div class="carousel-wrapper" id="carouselWrapper">
+        <img
+          src="https://m.media-amazon.com/images/S/sonata-images-prod/ATV_IN_mShop_Battleground/2d61ccdc-54ca-4384-a869-6590e7631fb2.jpeg"
+          alt="Image 1"
+        />
+        <img
+          src="https://m.media-amazon.com/images/S/sonata-images-prod/ATV_IN_Desktop_LoveWithFlaws/3bdc9729-0e71-45d4-a486-e98b4c4149a4.__SX2850__SY1603.5__QL60__._TTW_.jpeg"
+          alt="Image 2"
+        />
+        <img
+          src="https://m.media-amazon.com/images/S/sonata-images-prod/ATV_IN_Desktop_RopeADope/1ae60b39-d138-4804-a2db-1929ee5f150c.__SX2850__SY1603.5__QL60__._TTW_.jpeg"
+          alt="Image 3"
+        />
+        <img
+          src="https://m.media-amazon.com/images/S/sonata-images-prod/ATV_IN_Desktop_home_AashramP2/5e29b7df-c416-4a4b-8b07-764f14a37fde.__SX2850__SY1603.5__QL60__._TTW_.jpeg"
+          alt="Image 4"
+        />
+        <img
+          src="https://m.media-amazon.com/images/S/sonata-images-prod/ATV_IN_Desktop_HelloMyTwenties/6997ad21-d3bc-4dfc-85ad-9b91f607ad27.__SX2850__SY1603.5__QL60__._TTW_.jpeg"
+          alt="Image 5"
+        />
+        <img
+          src="https://m.media-amazon.com/images/S/sonata-images-prod/ATV_IN_Desktop_HHIS2/fcf51135-c932-4b16-b4f2-a3dc7e2707cd.__SX2850__SY1603.5__QL60__._TTW_.jpeg"
+          alt="Image 6"
+        />
+        <img
+          src="https://m.media-amazon.com/images/S/sonata-images-prod/ATV_IN_Desktop_PPP/84cfbf61-9973-4e2a-85ed-6ec9f59d8d3b.jpeg"
+          alt="Image 7"
+        />
+        <img
+          src="https://m.media-amazon.com/images/S/sonata-images-prod/ATV_IN_Desktop_KillDill/83cc82ca-7da6-4857-868b-57c75dd2a386.__SX2850__SY1603.5__QL60__._TTW_.jpeg"
+          alt="Image 8"
+        />
+      </div>
+      <button class="carousel-btn prev" onclick="moveSlide(-1)">
+        &#10094;
+      </button>
+      <button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    <!--  -->
+    <!-- 1 UI -->
+    <div class="slider-wrapper">
+      <h3>Continue Watching</h3>
+      <button
+        class="arrow-btn arrow-left"
+        onclick="scrollSlider('slider1', -300)"
+      >
+        ❮
+      </button>
+      <button
+        class="arrow-btn arrow-right"
+        onclick="scrollSlider('slider1', 300)"
+      >
+        ❯
+      </button>
+      <div id="slider1" class="slider-container"></div>
+    </div>
+
+    <!-- 2 Slider -->
+    <div class="slider-wrapper">
+      <h3>Trending Top 10</h3>
+      <button
+        class="arrow-btn arrow-left"
+        onclick="scrollSlider('slider2', -300)"
+      >
+        ❮
+      </button>
+      <button
+        class="arrow-btn arrow-right"
+        onclick="scrollSlider('slider2', 300)"
+      >
+        ❯
+      </button>
+      <div id="slider2" class="slider-container"></div>
+    </div>
+    <!--  -->
+    <!-- 3 Slider -->
+    <div class="slider-wrapper">
+      <h3>Popular Web Series</h3>
+      <button
+        class="arrow-btn arrow-left"
+        onclick="scrollSlider('slider3', -300)"
+      >
+        ❮
+      </button>
+      <button
+        class="arrow-btn arrow-right"
+        onclick="scrollSlider('slider3', 300)"
+      >
+        ❯
+      </button>
+      <div id="slider3" class="slider-container"></div>
+    </div>
+    <!--  -->
+    <!-- 4 Slider -->
+    <div class="slider-wrapper">
+      <h3>New in Dubbed Series</h3>
+      <button
+        class="arrow-btn arrow-left"
+        onclick="scrollSlider('slider4', -300)"
+      >
+        ❮
+      </button>
+      <button
+        class="arrow-btn arrow-right"
+        onclick="scrollSlider('slider4', 300)"
+      >
+        ❯
+      </button>
+      <div id="slider4" class="slider-container"></div>
+    </div>
+    <!--  -->
+    <!-- 5 Slider -->
+    <div class="slider-wrapper">
+      <h3>Horror, Thriller & Mystery</h3>
+      <button
+        class="arrow-btn arrow-left"
+        onclick="scrollSlider('slider5', -300)"
+      >
+        ❮
+      </button>
+      <button
+        class="arrow-btn arrow-right"
+        onclick="scrollSlider('slider5', 300)"
+      >
+        ❯
+      </button>
+      <div id="slider5" class="slider-container"></div>
+    </div>
+    <!--  -->
+    <!-- 6 Slider -->
+    <div class="slider-wrapper">
+      <h3>Chart Topping Movies: Dubbed in Hindi</h3>
+      <button
+        class="arrow-btn arrow-left"
+        onclick="scrollSlider('slider6', -300)"
+      >
+        ❮
+      </button>
+      <button
+        class="arrow-btn arrow-right"
+        onclick="scrollSlider('slider6', 300)"
+      >
+        ❯
+      </button>
+      <div id="slider6" class="slider-container"></div>
+    </div>
+    <!--  -->
+    <!-- 7 Slider -->
+    <div class="slider-wrapper">
+      <h3>Romantic Shows & Movies</h3>
+      <button
+        class="arrow-btn arrow-left"
+        onclick="scrollSlider('slider7', -300)"
+      >
+        ❮
+      </button>
+      <button
+        class="arrow-btn arrow-right"
+        onclick="scrollSlider('slider7', 300)"
+      >
+        ❯
+      </button>
+      <div id="slider7" class="slider-container"></div>
+    </div>
+    <!--  -->
+    <!-- 8 Slider -->
+    <div class="slider-wrapper">
+      <h3>Trending in Dubbed Series</h3>
+      <button
+        class="arrow-btn arrow-left"
+        onclick="scrollSlider('slider8', -300)"
+      >
+        ❮
+      </button>
+      <button
+        class="arrow-btn arrow-right"
+        onclick="scrollSlider('slider8', 300)"
+      >
+        ❯
+      </button>
+      <div id="slider8" class="slider-container"></div>
+    </div>
+    <!--  -->
+    <!-- 9 Slider -->
+    <div class="slider-wrapper">
+      <h3>New in Dubbed International Movies</h3>
+      <button
+        class="arrow-btn arrow-left"
+        onclick="scrollSlider('slider9', -300)"
+      >
+        ❮
+      </button>
+      <button
+        class="arrow-btn arrow-right"
+        onclick="scrollSlider('slider9', 300)"
+      >
+        ❯
+      </button>
+      <div id="slider9" class="slider-container"></div>
+    </div>
+    <!--  -->
+    <!-- 10 Slider -->
+    <div class="slider-wrapper">
+      <h3>TVF Original shows</h3>
+      <button
+        class="arrow-btn arrow-left"
+        onclick="scrollSlider('slider10', -300)"
+      >
+        ❮
+      </button>
+      <button
+        class="arrow-btn arrow-right"
+        onclick="scrollSlider('slider10', 300)"
+      >
+        ❯
+      </button>
+      <div id="slider10" class="slider-container"></div>
+    </div>
+    <!--  -->
+    <!-- 11 Slider -->
+    <div class="slider-wrapper">
+      <h3>Dubbed Movies and Shows in Tamil</h3>
+      <button
+        class="arrow-btn arrow-left"
+        onclick="scrollSlider('slider11', -300)"
+      >
+        ❮
+      </button>
+      <button
+        class="arrow-btn arrow-right"
+        onclick="scrollSlider('slider11', 300)"
+      >
+        ❯
+      </button>
+      <div id="slider11" class="slider-container"></div>
+    </div>
+    <!--  -->
+    <div style="margin: 20px;" class="py-4">
+      <div class="row g-3">
+        <!-- Box 1 -->
+        <div class="col-12 col-md-6">
+          <div class="info-box">
+            <h5>What is Amazon miniTV?</h5>
+            <p>
+              Amazon miniTV, launched in May 2021, is a free, ad-supported video
+              platform with an exclusive app and website. It offers a vast range
+              of the latest, trending, and...
+            </p>
+          </div>
+        </div>
+        <!-- Box 2 -->
+        <div class="col-12 col-md-6">
+          <div class="info-box">
+            <h5>Watch hundreds of popular Web Series, Short Films & other videos for free</h5>
+            <p>
+              With miniTV’s video streaming services, you can indulge in a vast
+              library of popular drama and
+              <a href="#">comedy series</a> such as
+              <a href="#">Aspirants</a>, <a href="#">Yeh Meri Family</a>...
+            </p>
+          </div>
+        </div>
+        <!-- Box 3 -->
+        <div class="col-12 col-md-6">
+          <div class="info-box">
+            <h5>The features of Amazon miniTV</h5>
+            <p>
+              The platform has a host of exciting features meant to make your
+              viewing experience exceptional. It is user-friendly, so you can
+              easily explore various titles...
+            </p>
+          </div>
+        </div>
+        <!-- Box 4 -->
+        <div class="col-12 col-md-6">
+          <div class="info-box">
+            <h5>How to access Amazon miniTV?</h5>
+            <p>
+              miniTV content is a free, ad-supported video streaming service
+              available in India only. It’s accessible on iOS 14+, Android 6+ and...
+            </p>
+          </div>
+        </div>
+        <!-- Box 5 -->
+        <div class="col-12">
+          <div class="info-box">
+            <h5>Stream latest Web Series, Short Films & other videos</h5>
+            <p>
+              Experience the best of entertainment with Amazon miniTV in India.
+              With our streaming services, you never have to miss out on the
+              <a href="#">latest web series</a>...
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <footer>
+      <div id="footersection"></div>
+    </footer>
+    <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script type="module" src="/Amazon-Shopping-website/method/import.js"></script>
+    <script src="/Amazon-Shopping-website/script/opctionmenu/MX.js"></script>
+  </body>
+</html>
