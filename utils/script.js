@@ -1,9 +1,9 @@
-//////// getvalue ////
+// getvalue ////
 export const getValue = (id) => {
     return document.getElementById(id).value;
 };
 
-//////// setvalue ////
+// setvalue ////
 export const setValue = (id, value) => {
     console.log(id, value);
   
