@@ -34,13 +34,13 @@ git init --> repository git
 
 git add . --> data git
 
-git commit -am "initial commit" -->
+git commit -m "initial commit" -->
 
 git remote add origin https://github.com/Jigarunagar/AMAZONWEB.git -->
 
 git remote -v -->
 
-git push origin master -->
+git push origin main -->
 
  git config --global user.name "Jigar Unagar" 
 
