@@ -57,7 +57,6 @@ const continueWatchingData = [
     imgUrl: "https://m.media-amazon.com/images/S/pv-target-images/ee5a31fb2cbcf41159c41d6d93af2164a1ae524230e2563136a146e0732390bb.__SX495__SY279__QL60__._TTW_.jpg",
   },
 ];
-
 const TrendingTopeten = [
   {
     title: "playground",
