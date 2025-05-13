@@ -17,7 +17,26 @@ function moveSlide(direction) {
 setInterval(() => moveSlide(1), 3000);
 /////////////
 
-const cardData = [
+const Twowheelsfeelthefreedom =[
+  { img: "" },
+  { img: "" },
+  { img: "" },
+  { img: "" },
+  { img: "" },
+  { img: "" },
+  { img: "" },
+  { img: "" },
+  { img: "" },
+  { img: "" },
+  { img: "" },
+  { img: "" },
+  { img: "" },
+  { img: "" },
+  { img: "" },
+
+];
+
+const Moreitemstoconsider = [
   { img: "https://m.media-amazon.com/images/I/710SxepIfiL._AC_SY200_.jpg" },
   { img: "https://m.media-amazon.com/images/I/61xsFt3w2SL._AC_SY200_.jpg" },
   { img: "https://m.media-amazon.com/images/I/61sylN5DqXL._AC_SY200_.jpg" },
@@ -40,8 +59,9 @@ const cardData = [
   { img: "https://m.media-amazon.com/images/I/517FvNN-33L._AC_SY200_.jpg" },
   { img: "https://m.media-amazon.com/images/I/7153TF65MgL._AC_SY200_.jpg" },
   { img: "https://m.media-amazon.com/images/I/71DVfS4RBaL._AC_SY200_.jpg" },
-
 ];
+
+
 
 function createSlider(data, containerId) {
   const container = document.getElementById(containerId);
@@ -88,5 +108,7 @@ function setupSliderNavigation(sliderId, prevBtnId, nextBtnId) {
 }
 
 // Render both sliders
-createSlider(cardData, "cardSlider1");
+createSlider(Twowheelsfeelthefreedom , "cardSlider1");
+createSlider(Moreitemstoconsider, "cardSlider2");
 setupSliderNavigation("cardSlider1", "prevBtn1", "nextBtn1");
+setupSliderNavigation("cardSlider2", "prevBtn2", "nextBtn2");
