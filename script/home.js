@@ -60,7 +60,6 @@ const Moreitemstoconsider = [
   { img: "https://m.media-amazon.com/images/I/71DVfS4RBaL._AC_SY200_.jpg" },
 ];
 
-
 function createSlider(data, containerId) {
   const container = document.getElementById(containerId);
   data.forEach((item) => {
