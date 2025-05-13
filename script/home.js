@@ -31,6 +31,16 @@ const cardData = [
   { img: "https://m.media-amazon.com/images/I/61BpmT9Gv1L._AC_SY200_.jpg" },
   { img: "https://m.media-amazon.com/images/I/61pqeHoXFZL._AC_SY200_.jpg" },
   { img: "https://m.media-amazon.com/images/I/81pm1OhatQL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/610EhNL+6WL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71jIoW8KArL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/61lVXbA4ZdS._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/51S9LsGZOQL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/51SJFadM3WL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/517FvNN-33L._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/517FvNN-33L._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/7153TF65MgL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71DVfS4RBaL._AC_SY200_.jpg" },
+
 ];
 
 function createSlider(data, containerId) {
