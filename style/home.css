@@ -164,6 +164,9 @@
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
     }
+    .card-img-top{
+      height: 200px;
+    }
 
     @media (max-width: 768px) {
       .card {

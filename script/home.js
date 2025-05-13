@@ -19,18 +19,18 @@ setInterval(() => moveSlide(1), 3000);
 
 const cardData = [
   { img: "https://m.media-amazon.com/images/I/710SxepIfiL._AC_SY200_.jpg" },
-  { img: "https://m.media-amazon.com/images/I/710SxepIfiL._AC_SY200_.jpg" },
-  { img: "https://m.media-amazon.com/images/I/710SxepIfiL._AC_SY200_.jpg" },
-  { img: "https://m.media-amazon.com/images/I/710SxepIfiL._AC_SY200_.jpg" },
-  { img: "https://m.media-amazon.com/images/I/710SxepIfiL._AC_SY200_.jpg" },
-  { img: "https://m.media-amazon.com/images/I/710SxepIfiL._AC_SY200_.jpg" },
-  { img: "https://m.media-amazon.com/images/I/710SxepIfiL._AC_SY200_.jpg" },
-  { img: "https://m.media-amazon.com/images/I/710SxepIfiL._AC_SY200_.jpg" },
-  { img: "https://m.media-amazon.com/images/I/710SxepIfiL._AC_SY200_.jpg" },
-  { img: "https://m.media-amazon.com/images/I/710SxepIfiL._AC_SY200_.jpg" },
-  { img: "https://m.media-amazon.com/images/I/710SxepIfiL._AC_SY200_.jpg" },
-  { img: "https://m.media-amazon.com/images/I/710SxepIfiL._AC_SY200_.jpg" },
-  { img: "https://m.media-amazon.com/images/I/710SxepIfiL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/61xsFt3w2SL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/61sylN5DqXL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/61oSwPvRWLL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/51oOuDkGSuL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/51Wexq2UEtL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/61Av1lptLkL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/81-MIqXzxxL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/51yz8iqVdUL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71l0xZ29TfS._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/61BpmT9Gv1L._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/61pqeHoXFZL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/81pm1OhatQL._AC_SY200_.jpg" },
 ];
 
 function createSlider(data, containerId) {
