@@ -18,21 +18,21 @@ setInterval(() => moveSlide(1), 3000);
 /////////////
 
 const Twowheelsfeelthefreedom =[
-  { img: "" },
-  { img: "" },
-  { img: "" },
-  { img: "" },
-  { img: "" },
-  { img: "" },
-  { img: "" },
-  { img: "" },
-  { img: "" },
-  { img: "" },
-  { img: "" },
-  { img: "" },
-  { img: "" },
-  { img: "" },
-  { img: "" },
+  { img: "https://m.media-amazon.com/images/I/71yYP7jS7CL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/51JMKQGtJfL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/7179pAMOsUL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71yWRvA3bFL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/716GceOifvL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/510H3GuyY8L._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71SZIKLsKKL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71olfKVMo1L._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71n3ZKGSiJL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71z0G0gHKNL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71olJxQlgFL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/81oqHV52yoL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/31GEH239AIL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71d7gqZrY+L._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/716EpVi124L._AC_SY200_.jpg" },
 
 ];
 
@@ -68,7 +68,7 @@ function createSlider(data, containerId) {
   data.forEach((item) => {
     const card = document.createElement("div");
     card.className = "card mx-2 border-0";
-    card.innerHTML = `<img src="${item.img}" class="card-img-top w-100" alt="Card Image">`;
+    card.innerHTML = `<img src="${item.img}" class="card-img-top" alt="Card Image">`;
     container.appendChild(card);
   });
 }
