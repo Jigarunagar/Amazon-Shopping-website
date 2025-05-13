@@ -33,7 +33,6 @@ const Twowheelsfeelthefreedom =[
   { img: "https://m.media-amazon.com/images/I/31GEH239AIL._AC_SY200_.jpg" },
   { img: "https://m.media-amazon.com/images/I/71d7gqZrY+L._AC_SY200_.jpg" },
   { img: "https://m.media-amazon.com/images/I/716EpVi124L._AC_SY200_.jpg" },
-
 ];
 
 const Moreitemstoconsider = [
@@ -60,7 +59,6 @@ const Moreitemstoconsider = [
   { img: "https://m.media-amazon.com/images/I/7153TF65MgL._AC_SY200_.jpg" },
   { img: "https://m.media-amazon.com/images/I/71DVfS4RBaL._AC_SY200_.jpg" },
 ];
-
 
 
 function createSlider(data, containerId) {
