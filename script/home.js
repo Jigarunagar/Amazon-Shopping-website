@@ -76,6 +76,19 @@ const Basedonyourbrowsinghistory = [
   { img: "https://m.media-amazon.com/images/I/61j6pJKdHjL._AC_SY200_.jpg" },
   { img: "https://m.media-amazon.com/images/I/71aI-8Qfb7L._AC_SY200_.jpg" },
   { img: "https://m.media-amazon.com/images/I/81+-1NmBjtL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/51IcfE3tugL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/51ZHWK8jALL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/61jD1g0CQpL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71pujn1nAVL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/51DVEqPQcSL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/61hzMVgImvL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71kbRVr8YfL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/81gpFUhv0lL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/61WzFmz9VRL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71SxGG76qpL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/61vyGorQxZL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71u8LHzOe7S._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/81Gho4uHyUS._AC_SY200_.jpg" },
 ];
 
 function createSlider(data, containerId) {
