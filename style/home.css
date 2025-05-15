@@ -175,6 +175,9 @@
   width: 275px !important;
 }
 
+#cardSlider3 .card {
+  width: 150px;
+}
 @media (max-width: 768px) {
   .card {
     width: 150px;

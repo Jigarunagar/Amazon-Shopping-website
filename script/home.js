@@ -17,7 +17,7 @@ function moveSlide(direction) {
 setInterval(() => moveSlide(1), 3000);
 /////////////
 
-const Twowheelsfeelthefreedom =[
+const Twowheelsfeelthefreedom = [
   { img: "https://m.media-amazon.com/images/I/71yYP7jS7CL._AC_SY200_.jpg" },
   { img: "https://m.media-amazon.com/images/I/51JMKQGtJfL._AC_SY200_.jpg" },
   { img: "https://m.media-amazon.com/images/I/7179pAMOsUL._AC_SY200_.jpg" },
@@ -58,6 +58,24 @@ const Moreitemstoconsider = [
   { img: "https://m.media-amazon.com/images/I/517FvNN-33L._AC_SY200_.jpg" },
   { img: "https://m.media-amazon.com/images/I/7153TF65MgL._AC_SY200_.jpg" },
   { img: "https://m.media-amazon.com/images/I/71DVfS4RBaL._AC_SY200_.jpg" },
+];
+
+const Basedonyourbrowsinghistory = [
+  { img: "https://m.media-amazon.com/images/I/81Q7WuKlezL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71MlmOso55L._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/61+KXM8DjWL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/61flh2SVHqL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/81MOMuoe0aL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/51isfhvFzUL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/712vlxsG3AL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/61VinEvap5L._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71Vqggkd8hL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/81m+ZYJIwjL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/61t5vb1LAUL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/51yyyOhWtFL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/61j6pJKdHjL._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/71aI-8Qfb7L._AC_SY200_.jpg" },
+  { img: "https://m.media-amazon.com/images/I/81+-1NmBjtL._AC_SY200_.jpg" },
 ];
 
 function createSlider(data, containerId) {
@@ -105,7 +123,9 @@ function setupSliderNavigation(sliderId, prevBtnId, nextBtnId) {
 }
 
 // Render both sliders
-createSlider(Twowheelsfeelthefreedom , "cardSlider1");
+createSlider(Twowheelsfeelthefreedom, "cardSlider1");
 createSlider(Moreitemstoconsider, "cardSlider2");
+createSlider(Basedonyourbrowsinghistory, "cardSlider3");
 setupSliderNavigation("cardSlider1", "prevBtn1", "nextBtn1");
 setupSliderNavigation("cardSlider2", "prevBtn2", "nextBtn2");
+setupSliderNavigation("cardSlider3", "prevBtn3", "nextBtn3");
