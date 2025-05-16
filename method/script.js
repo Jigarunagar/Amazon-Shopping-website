@@ -95,7 +95,7 @@ export const amazonHeader = `<nav class="navbar navbar-expand-lg amazon-header">
       <a href="/Amazon-Shopping-website/webpage/categorypage/Amazon Pay.html">Amazon Pay</a>
       <a href="/Amazon-Shopping-website/webpage/categorypage/Home & Kitchen.html">Home & Kitchen</a>
       <a href="/Amazon-Shopping-website/webpage/categorypage/Computers.html">Computers</a>
-    </div>`;
+    </div>`;  
 
 
 export const footerhtml = `<div class="container">
