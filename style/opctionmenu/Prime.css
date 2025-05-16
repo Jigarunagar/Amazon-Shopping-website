@@ -1,109 +1,106 @@
+#primeDetailPage {
+  margin: 0 auto;
+  max-width: 1400px;
+  min-width: 1000px;
+  font-size: 13px;
+}
 
-      #primeDetailPage {
-        margin: 0 auto;
-        max-width: 1400px;
-        min-width: 1000px;
-        font-size: 13px;
-      }
+.primeDetailPage-content-hero {
+  display: table;
+  width: 100%;
+  min-height: 335px;
+}
 
-      .primeDetailPage-content-hero {
-        display: table;
-        width: 100%;
-        min-height: 335px;
-      }
+.primeDetailPage-content-hero-left,
+.primeDetailPage-content-hero-right {
+  display: table-cell;
+  width: 50%;
+}
 
-      .primeDetailPage-content-hero-left,
-      .primeDetailPage-content-hero-right {
-        display: table-cell;
-        width: 50%;
-      }
+.primeDetailPage-content-hero-left {
+  background-image: url(https://m.media-amazon.com/images/G/31/prime/detail_page/2017/Sep/IN-Prime-Slash-Prime-Offer-Benefits1-1400x680._CB442254152_.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 11px 0px 16px 0px rgba(0, 0, 0, 0.17);
+}
 
-      .primeDetailPage-content-hero-left {
-        background-image: url(https://m.media-amazon.com/images/G/31/prime/detail_page/2017/Sep/IN-Prime-Slash-Prime-Offer-Benefits1-1400x680._CB442254152_.jpg);
-        background-size: auto 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        box-shadow: 11px 0px 16px 0px rgba(0, 0, 0, 0.17);
-      }
+.primeDetailPage-content-hero-right {
+  padding: 20px;
+  color: #fff;
+  background: radial-gradient(circle farthest-corner at center,
+      #527ca8 0%,
+      #344f6b 100%);
+}
 
-      .primeDetailPage-content-hero-right {
-        padding: 20px;
-        color: #fff;
-        background: radial-gradient(
-          circle farthest-corner at center,
-          #527ca8 0%,
-          #344f6b 100%
-        );
-      }
+.primeDetailPage-content-hero-right h1 {
+  font-size: 2.5em;
+}
 
-      .primeDetailPage-content-hero-right h1 {
-        font-size: 2.5em;
-      }
+.primeDetailPage-content-hero-right h4 {
+  font-size: 1.2em;
+}
 
-      .primeDetailPage-content-hero-right h4 {
-        font-size: 1.2em;
-      }
+.primeDetailPage-content-hero-right .a-button {
+  display: inline-block;
+  background-color: #ff9900;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+}
 
-      .primeDetailPage-content-hero-right .a-button {
-        display: inline-block;
-        background-color: #ff9900;
-        border-radius: 4px;
-        text-align: center;
-        text-decoration: none;
-      }
+.a-button-inner {
+  padding: 0.75em 1.5em;
+}
 
-      .a-button-inner {
-        padding: 0.75em 1.5em;
-      }
+.a-button-text {
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+}
 
-      .a-button-text {
-        font-size: 1.5em;
-        color: #fff;
-        text-decoration: none;
-      }
+.primeDetailPage-content-benefit h1,
+.primeDetailPage-content-benefit h2,
+.primeDetailPage-content-benefit h3 {
+  color: #333;
+}
 
-      .primeDetailPage-content-benefit h1,
-      .primeDetailPage-content-benefit h2,
-      .primeDetailPage-content-benefit h3 {
-        color: #333;
-      }
+.primeDetailPage-content-benefit a {
+  color: #0066c0;
+  text-decoration: none;
+}
 
-      .primeDetailPage-content-benefit a {
-        color: #0066c0;
-        text-decoration: none;
-      }
+.primeDetailPage-content-benefit a:hover {
+  text-decoration: underline;
+}
 
-      .primeDetailPage-content-benefit a:hover {
-        text-decoration: underline;
-      }
+.primeDetailPage-content-benefit {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 0;
+}
 
-      .primeDetailPage-content-benefit {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        padding: 40px 0;
-      }
+.a-column {
+  flex: 1;
+}
 
-      .a-column {
-        flex: 1;
-      }
+.a-span6 {
+  width: 50%;
+}
 
-      .a-span6 {
-        width: 50%;
-      }
+.a-size-medium {
+  font-size: 16px;
+}
 
-      .a-size-medium {
-        font-size: 16px;
-      }
+.a-text-center {
+  text-align: center;
+}
 
-      .a-text-center {
-        text-align: center;
-      }
+.a-spacing-medium {
+  margin: 20px 0;
+}
 
-      .a-spacing-medium {
-        margin: 20px 0;
-      }
-
-      .a-spacing-double-large {
-        margin: 40px 0;
-      }
+.a-spacing-double-large {
+  margin: 40px 0;
+}

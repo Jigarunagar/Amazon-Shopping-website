@@ -1,6 +1,7 @@
 /* Login Form Styles */
 .login-section {
-  min-height: calc(100vh - 170px); /* Adjust based on header/footer height */
+  min-height: calc(100vh - 170px);
+  /* Adjust based on header/footer height */
   background-color: #39414b;
   padding: 20px;
 }

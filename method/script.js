@@ -95,8 +95,7 @@ export const amazonHeader = `<nav class="navbar navbar-expand-lg amazon-header">
       <a href="/Amazon-Shopping-website/webpage/categorypage/Amazon Pay.html">Amazon Pay</a>
       <a href="/Amazon-Shopping-website/webpage/categorypage/Home & Kitchen.html">Home & Kitchen</a>
       <a href="/Amazon-Shopping-website/webpage/categorypage/Computers.html">Computers</a>
-    </div>`;  
-
+    </div>`;
 
 export const footerhtml = `<div class="container">
         <div class="row">
@@ -170,7 +169,7 @@ export const footerhtml = `<div class="container">
         </div>
       </div>`;
 
-const style = document.createElement('style');
+const style = document.createElement("style");
 style.textContent = `
 ::-webkit-scrollbar {
   width: 5px;

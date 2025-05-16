@@ -6,6 +6,4 @@ document.querySelector("#signupform").addEventListener("submit", async (e) => {
     number: document.getElementById("DataNumber").value,
     password: document.getElementById("DataPassword").value,
   };
-
-
 });
