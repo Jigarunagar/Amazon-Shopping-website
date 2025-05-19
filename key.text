@@ -1,5 +1,3 @@
-mongodb+srv://jigarunagar:oUmiSAxMwqRKI180@cluster0.zsieghq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-
 node --version -->v22.13.1
 
 npm --version --> 10.9.2
