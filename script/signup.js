@@ -19,8 +19,7 @@ document.querySelector("#signupform").addEventListener("submit", async (e) => {
     const data = await response.json();
 
     if (response.ok) {
-      alert(data.message); // e.g. "Signup successful!"
-      // Optionally, clear form or redirect user
+      alert(data.message); 
       e.target.reset();
     } else {
       alert(data.message || "Signup failed");
