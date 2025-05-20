@@ -21,6 +21,7 @@ document.querySelector("#signupform").addEventListener("submit", async (e) => {
     if (response.ok) {
       alert(data.message); 
       e.target.reset();
+      window.location.href = "index.html";
     } else {
       alert(data.message || "Signup failed");
     }
