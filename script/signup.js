@@ -7,11 +7,29 @@ document.querySelector("#signupform").addEventListener("submit", async (e) => {
   const password = document.getElementById("DataPassword").value;
 
   const nameRegex = /^[A-Za-z\s]+$/;
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const numberRegex = /^\d{10}$/;
+  const passwordRegex = /^\d{8}$/;
 
   if (!nameRegex.test(fullname)) {
     alert("only letters and spaces.");
     return;
-  } 
+  }
+
+  if (!emailRegex.test(email)) {
+    alert("Please enter a valid email address.");
+    return;
+  }
+
+  if (!numberRegex.test(number)) {
+    alert("Phone number must be exactly 10 digits.");
+    return;
+  }
+  if (!passwordRegex.test(password)) {
+    alert("Password must be exactly 8 digits Number");
+    return;
+  }
+
   const user = {
     fullname,
     email,
