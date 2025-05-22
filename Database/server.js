@@ -9,24 +9,18 @@ app.use(cors());
 app.use(express.json());
 connectDB();
 
-// 👇 Signup POST route
 app.post("/signup", async (req, res) => {
   try {
     const { fullname, email, number, password } = req.body;
 
-    // Check if email already exists
     const existingEmail = await User.findOne({ email });
     if (existingEmail) {
       return res.status(400).json({ message: "Email already exists!" });
     }
-
-    // Check if number already exists
     const existingNumber = await User.findOne({ number });
     if (existingNumber) {
       return res.status(400).json({ message: "Number already exists!" });
     }
-
-    // Create new user
     const newUser = new User({ fullname, email, number, password });
     await newUser.save();
 
